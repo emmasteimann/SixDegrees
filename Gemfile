@@ -1,13 +1,23 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-
+gem 'neo4j'
+gem 'nokogiri',             '~> 1.5.5'
+gem 'json'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem "rspec-rails", :group => [:test, :development]
+group :test do
+  gem "factory_girl_rails"
+  gem "capybara"
+  gem "guard-rspec"
+end
 
-gem 'jruby-openssl'
-
+platforms :jruby do
+  gem 'jruby-openssl'
+  gem 'therubyrhino'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -15,7 +25,6 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyrhino'
 
   gem 'uglifier', '>= 1.0.3'
 end
