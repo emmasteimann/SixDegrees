@@ -9,18 +9,21 @@ gem 'json'
 
 gem "neo4jrb-paperclip", :require => "neo4jrb_paperclip"
 # gem "aws-s3",            :require => "aws/s3"
-gem "activerecord-jdbcsqlite3-adapter"
-gem "jdbc-sqlite3"
+
 gem "rspec-rails", :group => [:test, :development]
 group :test do
   gem "factory_girl_rails"
   gem "capybara"
   gem "guard-rspec"
 end
-
+group :production do
+  gem 'closure-compiler'
+end
 platforms :jruby do
   gem 'jruby-openssl'
   gem 'therubyrhino'
+  gem 'jruby-rack',                     '= 1.1.1'
+  gem 'trinidad',                       '= 1.2.3'
 end
 # Gems used only for assets and not required
 # in production environments by default.
@@ -30,7 +33,7 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '>= 1.0.3', :group => [:test, :development]
 end
 
 gem 'jquery-rails'

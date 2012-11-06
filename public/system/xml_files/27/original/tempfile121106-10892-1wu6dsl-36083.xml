@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<movies>
+  <movie title="Footloose">
+    <actor name="Kevin Bacon"/>
+    <actor name="John Lithgow"/>
+    <actor name="Dianne Wiest"/>
+    <actor name="Chris Penn"/>
+    <actor name="Lori Singer"/>
+  </movie>
+  <movie title="The Fifth Element">
+    <actor name="Bruce Willis"/>
+    <actor name="Milla Jovovich"/>
+    <actor name="Gary Oldman"/>
+    <actor name="Ian Holm"/>
+    <actor name="Chris Tucker"/>
+  </movie>
+  <movie title="Die Hard">
+    <actor name="Bruce Willis"/>
+    <actor name="Reginald VelJohnson"/>
+    <actor name="Bonnie Bedelia"/>
+    <actor name="Alexander Godunov"/>
+    <actor name="Paul Gleason"/>
+  </movie>
+</movies>

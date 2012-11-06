@@ -353,3 +353,1017 @@ Storage files: (filename : modification date - size)
 2012-11-06 08:41:13.038+0000: NeoStore closed
 2012-11-06 08:41:13.039+0000: --- SHUTDOWN diagnostics START ---
 2012-11-06 08:41:13.039+0000: --- SHUTDOWN diagnostics END ---
+2012-11-06 16:45:00.273+0000: WARNING! Deprecated configuration options used. See manual for details
+2012-11-06 16:45:00.273+0000: enable_online_backup has been replaced with online_backup_enabled and online_backup_port
+2012-11-06 16:45:00.273+0000: neo4j.ext.udc.disable has been replaced with neo4j.ext.udc.enabled
+2012-11-06 16:45:00.273+0000: cannot configure writers and searchers individually since they go together
+2012-11-06 16:45:00.395+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=266b)
+2012-11-06 16:45:00.400+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=30b)
+2012-11-06 16:45:00.401+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=136192b mappedMem=136314880b (storeSize=2816b)
+2012-11-06 16:45:00.401+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=342b)
+2012-11-06 16:45:00.403+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=72b)
+2012-11-06 16:45:00.405+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=136192b mappedMem=136314880b (storeSize=128b)
+2012-11-06 16:45:00.410+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=94341b mappedMem=94371840b (storeSize=5535b)
+2012-11-06 16:45:00.415+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=52404b mappedMem=52428800b (storeSize=4158b)
+2012-11-06 16:45:00.417+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=26208b mappedMem=26214400b (storeSize=243b)
+2012-11-06 16:45:00.417+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2012-11-06 16:45:00.446+0000: Opened logical log [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/nioneo_logical.log.1] version=1, lastTxId=115 (clean)
+2012-11-06 16:45:00.455+0000: TM opening log: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/tm_tx_log.1
+2012-11-06 16:45:00.497+0000: Opened logical log [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/index/lucene.log.1] version=1, lastTxId=30 (clean)
+2012-11-06 16:45:00.503+0000: --- STARTUP diagnostics START ---
+2012-11-06 16:45:00.505+0000: Neo4j Kernel properties:
+    read_only=false
+    forced_kernel_id=
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    min_node_cache_size=0
+    intercept_committing_transactions=false
+    node_auto_indexing=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    ha.db=false
+    use_adaptive_cache=true
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    timestamps=true
+    ha.coordinators=localhost:2181,localhost:2182,localhost:2183
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    max_node_cache_size=1500
+    neostore.propertystore.db.arrays.mapped_memory=130M
+    neostore.propertystore.db.strings.mapped_memory=130M
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    storage_path=/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    migration_thread=false
+    remote_logging_host=127.0.0.1
+    store_dir=/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development
+    online_backup_enabled=false
+    remote_logging_port=4560
+    enable_rules=true
+    gc_monitor_threshold=200ms
+    load_kernel_extensions=true
+    array_block_size=120
+    neostore.relationshipstore.db.mapped_memory=50M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=25M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=true
+    min_relationship_cache_size=0
+    max_relationship_cache_size=3500
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=9332
+    adaptive_cache_heap_ratio=0.77
+    identity_map=true
+    adaptive_cache_manager_decrease_ratio=1.15
+    ha.server_id=2
+    adaptive_cache_worker_sleep_time=3000
+    neo_store=neostore
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    adaptive_cache_manager_increase_ratio=1.1
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=90M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    ha.server=localhost:6002
+    neo4j.ext.udc.enabled=true
+    online_backup_port=6362
+2012-11-06 16:45:00.514+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2012-11-06 16:45:00.515+0000: System memory information:
+    Total Physical memory: 8.00 GB
+    Free Physical memory: 2.61 GB
+    Committed virtual memory: 3.16 GB
+    Total swap space: 64.00 MB
+    Free swap space: 64.00 MB
+2012-11-06 16:45:00.523+0000: JVM memory information:
+    Free  memory: 21.15 MB
+    Total memory: 81.06 MB
+    Max   memory: 493.75 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=4.13 MB, used=4.01 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=14.04 MB, max=50.00 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=2.06 MB, max=6.25 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=43.80 MB, max=437.50 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=60.58 MB, used=43.87 MB, max=82.00 MB, threshold=0.00 B
+2012-11-06 16:45:00.529+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.7.4; arch: x86_64; cpus: 4
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 126
+    Process id: 10880@EmsWorkLappy.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Chicago
+2012-11-06 16:45:00.533+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.7-b02-420
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Djdk.home=, -Djruby.home=/Users/emma.steimann/.rvm/rubies/jruby-1.7.0, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/native/Darwin, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/jruby.jar, -Dfile.encoding=UTF-8]
+2012-11-06 16:45:00.534+0000: Java classpath:
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-jmx-1.8.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/jsse.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/classes.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [loader.2] file:/System/Library/Java/Extensions/dns_sd.jar
+     [loader.2] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/trinidad_jars-1.1.1/trinidad-libs/tomcat-core.jar
+     [loader.2] file:/System/Library/Java/Extensions/vecmath.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/jsfd.jar
+     [loader.2] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/laf.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/nekohtml.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/jruby-rack-1.1.10/lib/jruby-rack-1.1.10.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+     [bootstrap] /Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/jruby.jar
+     [loader.2] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-shell-1.8.jar
+     [loader.2] file:/System/Library/Java/Extensions/QTJava.zip
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/json-1.7.5-java/lib/json/ext/parser.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/sunrsasign.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/server-api-1.8.jar
+     [loader.2] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/isorelax.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/ui.jar
+     [loader.2] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.2] file:/System/Library/Java/Extensions/j3dutils.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+     [loader.2] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/nokogiri/nokogiri.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-kernel-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/nekodtd.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+     [loader.2] file:/System/Library/Java/Extensions/jai_codec.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-lucene-index-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-graph-matching-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-cypher-1.8.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/json-1.7.5-java/lib/json/ext/generator.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/lucene-core-3.5.0.jar
+     [classpath + loader.1] file:/Users/emma.steimann/RubyProjs/SixDegrees/
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-udc-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/jing.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/scala-library-2.9.1-1.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/trinidad_jars-1.1.1/trinidad-libs/trinidad-rb.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/xercesImpl.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/jce.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-graph-algo-1.8.jar
+     [loader.2] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/charsets.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/apple_provider.jar
+2012-11-06 16:45:00.536+0000: Library path:
+    /Users/emma.steimann/RubyProjs/SixDegrees
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2012-11-06 16:45:00.537+0000: System.properties:
+    jruby.home = /Users/emma.steimann/.rvm/rubies/jruby-1.7.0
+    sun.boot.library.path = /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M3708
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/emma.steimann/RubyProjs/SixDegrees
+    neo4j.ext.udc.source = neo4rb
+    jdk.home = 
+    sun.jnu.encoding = MacRoman
+    jruby.memory.max = 500m
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    jffi.boot.library.path = /Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/native/Darwin
+    user.home = /Users/emma.steimann
+    user.timezone = America/Chicago
+    file.encoding = UTF-8
+    jruby.stack.max = 2048k
+    jruby.script = jruby
+    user.name = emma.steimann
+    jruby.shell = /bin/sh
+    sun.java.command = org/jruby/Main script/rails s
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_32-420
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2012-11-06 16:45:00.537+0000: Network information:
+    Interface en1:
+        address: fe80:0:0:0:cabc:c8ff:feec:3d3e%5
+        address: 10.1.10.116
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2012-11-06 16:45:00.539+0000: --- STARTUP diagnostics END ---
+2012-11-06 16:45:00.642+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-11-06 16:45:00.649+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-11-06 16:45:00.799+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-11-06 16:45:00.804+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2012-11-06 16:45:00.804+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1352191197126, id:-3188783948899814669, store version: 13561656364791302]
+2012-11-06 16:45:00.804+0000: Kernel version: Neo4j - Graph Database Kernel 1.8
+2012-11-06 16:45:00.804+0000: Neo4j component versions:
+2012-11-06 16:45:00.805+0000:   Neo4j - Graph Database Kernel 1.8
+2012-11-06 16:45:00.805+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2012-11-06 16:45:00.809+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2012-11-06 16:45:00.809+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2012-11-06 16:45:00.810+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2012-11-06 16:45:00.810+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2012-11-06 16:45:00.810+0000: Id usage:
+    Id usage:
+      NodeStore: used=27 high=26
+      RelationshipStore: used=126 high=125
+      RelationshipTypeStore: used=6 high=5
+      PropertyStore: used=135 high=134
+      PropertyIndexStore: used=8 high=7
+      StringPropertyStore: used=22 high=21
+      ArrayPropertyStore: used=1 high=0
+2012-11-06 16:45:00.810+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2012-11-06 16:45:00.810+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2012-11-06 16:45:00.810+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2012-11-06 16:45:00.810+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2012-11-06 16:45:00.811+0000: Disk space on partition (Total / Free / Free %): 499248103424 / 272127782912 / 45
+Storage files: (filename : modification date - size)
+      active_tx_log: 2012-11-06T02:39:57-0600 - 11.00 B
+      index:
+        lucene:
+          node:
+            Actor_exact:
+              _a.fdt: 2012-11-06T02:40:44-0600 - 205.00 B
+              _a.fdx: 2012-11-06T02:40:44-0600 - 84.00 B
+              _a.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _a.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _a.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _a.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _a.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _a.tis: 2012-11-06T02:40:44-0600 - 267.00 B
+              _b.fdt: 2012-11-06T02:40:44-0600 - 21.00 B
+              _b.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _b.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _b.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _b.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _b.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _b.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _b.tis: 2012-11-06T02:40:44-0600 - 46.00 B
+              _c.fdt: 2012-11-06T02:40:44-0600 - 27.00 B
+              _c.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _c.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _c.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _c.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _c.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _c.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _c.tis: 2012-11-06T02:40:44-0600 - 52.00 B
+              _d.fdt: 2012-11-06T02:40:44-0600 - 25.00 B
+              _d.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _d.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _d.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _d.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _d.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _d.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _d.tis: 2012-11-06T02:40:44-0600 - 50.00 B
+              _e.fdt: 2012-11-06T02:40:44-0600 - 26.00 B
+              _e.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _e.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _e.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _e.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _e.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _e.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _e.tis: 2012-11-06T02:40:44-0600 - 51.00 B
+              _f.fdt: 2012-11-06T02:40:44-0600 - 26.00 B
+              _f.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _f.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _f.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _f.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _f.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _f.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _f.tis: 2012-11-06T02:40:44-0600 - 51.00 B
+              _g.fdt: 2012-11-06T02:40:44-0600 - 24.00 B
+              _g.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _g.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _g.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _g.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _g.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _g.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _g.tis: 2012-11-06T02:40:44-0600 - 49.00 B
+              _h.cfs: 2012-11-06T02:41:12-0600 - 258.00 B
+              segments.gen: 2012-11-06T02:41:12-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:12-0600 - 1.64 kB
+            - Total: 2012-11-06T02:41:13-0600 - 3.44 kB
+            Movie_exact:
+              _0.fdt: 2012-11-06T02:40:44-0600 - 21.00 B
+              _0.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _0.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _0.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _0.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _0.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _0.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _0.tis: 2012-11-06T02:40:44-0600 - 46.00 B
+              _1.fdt: 2012-11-06T02:40:44-0600 - 39.00 B
+              _1.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _1.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _1.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _1.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _1.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _1.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _1.tis: 2012-11-06T02:40:44-0600 - 64.00 B
+              _2.fdt: 2012-11-06T02:40:44-0600 - 60.00 B
+              _2.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _2.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _2.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _2.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _2.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _2.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _2.tis: 2012-11-06T02:40:44-0600 - 85.00 B
+              _3.fdt: 2012-11-06T02:41:13-0600 - 34.00 B
+              _3.fdx: 2012-11-06T02:41:13-0600 - 12.00 B
+              _3.fnm: 2012-11-06T02:41:13-0600 - 18.00 B
+              _3.frq: 2012-11-06T02:41:13-0600 - 2.00 B
+              _3.nrm: 2012-11-06T02:41:13-0600 - 6.00 B
+              _3.prx: 2012-11-06T02:41:13-0600 - 2.00 B
+              _3.tii: 2012-11-06T02:41:13-0600 - 35.00 B
+              _3.tis: 2012-11-06T02:41:13-0600 - 59.00 B
+              segments.gen: 2012-11-06T02:41:13-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:13-0600 - 836.00 B
+            - Total: 2012-11-06T02:41:13-0600 - 1.53 kB
+          - Total: 2012-11-06T02:40:07-0600 - 4.97 kB
+          relationship:
+            ActedIn_exact:
+              _0.fdt: 2012-11-06T02:40:44-0600 - 125.00 B
+              _0.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _0.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _0.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _0.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _0.tis: 2012-11-06T02:40:44-0600 - 115.00 B
+              _1.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _1.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _1.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _1.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _1.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _1.tis: 2012-11-06T02:40:44-0600 - 117.00 B
+              _2.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _2.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _2.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _2.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _2.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _2.tis: 2012-11-06T02:40:44-0600 - 118.00 B
+              _3.fdt: 2012-11-06T02:41:12-0600 - 139.00 B
+              _3.fdx: 2012-11-06T02:41:12-0600 - 44.00 B
+              _3.fnm: 2012-11-06T02:41:12-0600 - 56.00 B
+              _3.frq: 2012-11-06T02:41:12-0600 - 20.00 B
+              _3.nrm: 2012-11-06T02:41:12-0600 - 24.00 B
+              _3.prx: 2012-11-06T02:41:12-0600 - 20.00 B
+              _3.tii: 2012-11-06T02:41:12-0600 - 35.00 B
+              _3.tis: 2012-11-06T02:41:12-0600 - 118.00 B
+              segments.gen: 2012-11-06T02:41:12-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:12-0600 - 836.00 B
+            - Total: 2012-11-06T02:41:12-0600 - 2.59 kB
+            Neo4j::Rails::Relationship_exact:
+              _0.fdt: 2012-11-06T02:40:44-0600 - 125.00 B
+              _0.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _0.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _0.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _0.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _0.tis: 2012-11-06T02:40:44-0600 - 115.00 B
+              _1.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _1.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _1.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _1.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _1.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _1.tis: 2012-11-06T02:40:44-0600 - 117.00 B
+              _2.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _2.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _2.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _2.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _2.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _2.tis: 2012-11-06T02:40:44-0600 - 118.00 B
+              _3.fdt: 2012-11-06T02:41:13-0600 - 139.00 B
+              _3.fdx: 2012-11-06T02:41:13-0600 - 44.00 B
+              _3.fnm: 2012-11-06T02:41:13-0600 - 56.00 B
+              _3.frq: 2012-11-06T02:41:13-0600 - 20.00 B
+              _3.nrm: 2012-11-06T02:41:13-0600 - 24.00 B
+              _3.prx: 2012-11-06T02:41:13-0600 - 20.00 B
+              _3.tii: 2012-11-06T02:41:13-0600 - 35.00 B
+              _3.tis: 2012-11-06T02:41:13-0600 - 118.00 B
+              segments.gen: 2012-11-06T02:41:13-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:13-0600 - 836.00 B
+            - Total: 2012-11-06T02:41:13-0600 - 2.59 kB
+          - Total: 2012-11-06T02:40:08-0600 - 5.18 kB
+        - Total: 2012-11-06T02:40:08-0600 - 10.15 kB
+        lucene-store.db: 2012-11-06T09:46:03-0600 - 40.00 B
+        lucene.log.1: 2012-11-06T10:45:00-0600 - 16.00 B
+        lucene.log.active: 2012-11-06T10:45:00-0600 - 4.00 B
+        lucene.log.v0: 2012-11-06T02:41:13-0600 - 9.72 kB
+      - Total: 2012-11-06T10:45:00-0600 - 19.93 kB
+      index.db: 2012-11-06T02:40:08-0600 - 437.00 B
+      lock: 2012-11-06T10:45:00-0600 - 0.00 B
+      messages.log: 2012-11-06T10:45:00-0600 - 52.04 kB
+      neostore: 2012-11-06T10:45:00-0600 - 54.00 B
+      neostore.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.nodestore.db: 2012-11-06T10:45:00-0600 - 243.00 B
+      neostore.nodestore.db.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.propertystore.db: 2012-11-06T10:45:00-0600 - 5.41 kB
+      neostore.propertystore.db.arrays: 2012-11-06T10:45:00-0600 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.propertystore.db.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.propertystore.db.index: 2012-11-06T10:45:00-0600 - 1.02 kB
+      neostore.propertystore.db.index.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.propertystore.db.index.keys: 2012-11-06T10:45:00-0600 - 1.00 kB
+      neostore.propertystore.db.index.keys.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.propertystore.db.strings: 2012-11-06T10:45:00-0600 - 2.75 kB
+      neostore.propertystore.db.strings.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.relationshipstore.db: 2012-11-06T10:45:00-0600 - 4.06 kB
+      neostore.relationshipstore.db.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.relationshiptypestore.db: 2012-11-06T10:45:00-0600 - 30.00 B
+      neostore.relationshiptypestore.db.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2012-11-06T10:45:00-0600 - 266.00 B
+      neostore.relationshiptypestore.db.names.id: 2012-11-06T10:45:00-0600 - 9.00 B
+      nioneo_logical.log.1: 2012-11-06T10:45:00-0600 - 16.00 B
+      nioneo_logical.log.active: 2012-11-06T10:45:00-0600 - 4.00 B
+      nioneo_logical.log.v0: 2012-11-06T02:41:13-0600 - 53.60 kB
+      tm_tx_log.1: 2012-11-06T10:45:00-0600 - 0.00 B
+2012-11-06 16:45:00.839+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2012-11-06 16:45:00.841+0000: Started - database is now available
+2012-11-06 16:45:00.844+0000: GC Monitor started. 
+2012-11-06 16:45:07.347+0000: Stopping - database is now unavailable
+2012-11-06 16:45:07.350+0000: TM shutting down
+2012-11-06 16:45:07.353+0000: Closed log /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/index/lucene.log
+2012-11-06 16:45:07.357+0000: Closed log /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/nioneo_logical.log
+2012-11-06 16:45:07.357+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=12 switches=0 ooe=0
+2012-11-06 16:45:07.359+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=6 switches=0 ooe=0
+2012-11-06 16:45:07.362+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.366+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index.keys hit=16 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.367+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index hit=8 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.368+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.369+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db hit=8 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.370+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshipstore.db hit=6 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.372+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.nodestore.db hit=8 miss=0 switches=0 ooe=0
+2012-11-06 16:45:07.373+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore hit=0 miss=16 switches=0 ooe=0
+2012-11-06 16:45:07.374+0000: NeoStore closed
+2012-11-06 16:45:07.374+0000: --- SHUTDOWN diagnostics START ---
+2012-11-06 16:45:07.374+0000: --- SHUTDOWN diagnostics END ---
+2012-11-06 16:46:13.621+0000: WARNING! Deprecated configuration options used. See manual for details
+2012-11-06 16:46:13.621+0000: enable_online_backup has been replaced with online_backup_enabled and online_backup_port
+2012-11-06 16:46:13.621+0000: neo4j.ext.udc.disable has been replaced with neo4j.ext.udc.enabled
+2012-11-06 16:46:13.621+0000: cannot configure writers and searchers individually since they go together
+2012-11-06 16:46:13.729+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=266b)
+2012-11-06 16:46:13.734+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=30b)
+2012-11-06 16:46:13.735+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=136192b mappedMem=136314880b (storeSize=2816b)
+2012-11-06 16:46:13.735+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=342b)
+2012-11-06 16:46:13.737+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=72b)
+2012-11-06 16:46:13.739+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=136192b mappedMem=136314880b (storeSize=128b)
+2012-11-06 16:46:13.757+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=94341b mappedMem=94371840b (storeSize=5535b)
+2012-11-06 16:46:13.760+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=52404b mappedMem=52428800b (storeSize=4158b)
+2012-11-06 16:46:13.762+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=26208b mappedMem=26214400b (storeSize=243b)
+2012-11-06 16:46:13.763+0000: [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2012-11-06 16:46:13.792+0000: Opened logical log [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/nioneo_logical.log.1] version=2, lastTxId=115 (clean)
+2012-11-06 16:46:13.802+0000: TM opening log: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/tm_tx_log.1
+2012-11-06 16:46:13.846+0000: Opened logical log [/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/index/lucene.log.1] version=2, lastTxId=30 (clean)
+2012-11-06 16:46:13.853+0000: --- STARTUP diagnostics START ---
+2012-11-06 16:46:13.858+0000: Neo4j Kernel properties:
+    read_only=false
+    forced_kernel_id=
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    min_node_cache_size=0
+    intercept_committing_transactions=false
+    node_auto_indexing=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    ha.db=false
+    use_adaptive_cache=true
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    timestamps=true
+    ha.coordinators=localhost:2181,localhost:2182,localhost:2183
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    max_node_cache_size=1500
+    neostore.propertystore.db.arrays.mapped_memory=130M
+    neostore.propertystore.db.strings.mapped_memory=130M
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    storage_path=/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    migration_thread=false
+    remote_logging_host=127.0.0.1
+    store_dir=/Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development
+    online_backup_enabled=false
+    remote_logging_port=4560
+    enable_rules=true
+    gc_monitor_threshold=200ms
+    load_kernel_extensions=true
+    array_block_size=120
+    neostore.relationshipstore.db.mapped_memory=50M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=25M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=true
+    min_relationship_cache_size=0
+    max_relationship_cache_size=3500
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=9332
+    adaptive_cache_heap_ratio=0.77
+    identity_map=true
+    adaptive_cache_manager_decrease_ratio=1.15
+    ha.server_id=2
+    adaptive_cache_worker_sleep_time=3000
+    neo_store=neostore
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    adaptive_cache_manager_increase_ratio=1.1
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=90M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    ha.server=localhost:6002
+    neo4j.ext.udc.enabled=true
+    online_backup_port=6362
+2012-11-06 16:46:13.865+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2012-11-06 16:46:13.866+0000: System memory information:
+    Total Physical memory: 8.00 GB
+    Free Physical memory: 2.59 GB
+    Committed virtual memory: 3.18 GB
+    Total swap space: 64.00 MB
+    Free swap space: 64.00 MB
+2012-11-06 16:46:13.876+0000: JVM memory information:
+    Free  memory: 28.28 MB
+    Total memory: 81.06 MB
+    Max   memory: 493.75 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=3.94 MB, used=3.85 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=6.53 MB, max=50.00 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=2.06 MB, max=6.25 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=44.19 MB, max=437.50 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=60.57 MB, used=43.88 MB, max=82.00 MB, threshold=0.00 B
+2012-11-06 16:46:13.882+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.7.4; arch: x86_64; cpus: 4
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 126
+    Process id: 10892@EmsWorkLappy.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Chicago
+2012-11-06 16:46:13.887+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.7-b02-420
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Djdk.home=, -Djruby.home=/Users/emma.steimann/.rvm/rubies/jruby-1.7.0, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/native/Darwin, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/jruby.jar, -Dfile.encoding=UTF-8]
+2012-11-06 16:46:13.889+0000: Java classpath:
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-jmx-1.8.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/jsse.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/classes.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [loader.2] file:/System/Library/Java/Extensions/dns_sd.jar
+     [loader.2] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/trinidad_jars-1.1.1/trinidad-libs/tomcat-core.jar
+     [loader.2] file:/System/Library/Java/Extensions/vecmath.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/jsfd.jar
+     [loader.2] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/laf.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/nekohtml.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/jruby-rack-1.1.10/lib/jruby-rack-1.1.10.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+     [bootstrap] /Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/jruby.jar
+     [loader.2] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-shell-1.8.jar
+     [loader.2] file:/System/Library/Java/Extensions/QTJava.zip
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/json-1.7.5-java/lib/json/ext/parser.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/sunrsasign.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/server-api-1.8.jar
+     [loader.2] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/isorelax.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/ui.jar
+     [loader.2] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.2] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.2] file:/System/Library/Java/Extensions/j3dutils.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+     [loader.2] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/nokogiri/nokogiri.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-kernel-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/nekodtd.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+     [loader.2] file:/System/Library/Java/Extensions/jai_codec.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-lucene-index-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-graph-matching-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-cypher-1.8.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/json-1.7.5-java/lib/json/ext/generator.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/lucene-core-3.5.0.jar
+     [classpath + loader.1] file:/Users/emma.steimann/RubyProjs/SixDegrees/
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-udc-1.8.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/jing.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/scala-library-2.9.1-1.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/trinidad_jars-1.1.1/trinidad-libs/trinidad-rb.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/nokogiri-1.5.5-java/lib/xercesImpl.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/jce.jar
+     [loader.0] file:/Users/emma.steimann/.rvm/gems/jruby-1.7.0@six_degrees/gems/neo4j-community-1.8-java/lib/neo4j-community/jars/neo4j-graph-algo-1.8.jar
+     [loader.2] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [bootstrap] /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Classes/charsets.jar
+     [loader.2] file:/Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Home/lib/ext/apple_provider.jar
+2012-11-06 16:46:13.892+0000: Library path:
+    /Users/emma.steimann/RubyProjs/SixDegrees
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2012-11-06 16:46:13.893+0000: System.properties:
+    jruby.home = /Users/emma.steimann/.rvm/rubies/jruby-1.7.0
+    sun.boot.library.path = /Library/Java/JavaVirtualMachines/1.6.0_32-b05-420.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M3708
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/emma.steimann/RubyProjs/SixDegrees
+    neo4j.ext.udc.source = neo4rb
+    jdk.home = 
+    sun.jnu.encoding = MacRoman
+    jruby.memory.max = 500m
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    jffi.boot.library.path = /Users/emma.steimann/.rvm/rubies/jruby-1.7.0/lib/native/Darwin
+    user.home = /Users/emma.steimann
+    user.timezone = America/Chicago
+    file.encoding = UTF-8
+    jruby.stack.max = 2048k
+    jruby.script = jruby
+    user.name = emma.steimann
+    jruby.shell = /bin/sh
+    sun.java.command = org/jruby/Main script/rails s
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_32-420
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2012-11-06 16:46:13.894+0000: Network information:
+    Interface en1:
+        address: fe80:0:0:0:cabc:c8ff:feec:3d3e%5
+        address: 10.1.10.116
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2012-11-06 16:46:13.896+0000: --- STARTUP diagnostics END ---
+2012-11-06 16:46:13.981+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-11-06 16:46:13.987+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-11-06 16:46:14.143+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-11-06 16:46:14.148+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2012-11-06 16:46:14.148+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1352191197126, id:-3188783948899814669, store version: 13561656364791302]
+2012-11-06 16:46:14.148+0000: Kernel version: Neo4j - Graph Database Kernel 1.8
+2012-11-06 16:46:14.148+0000: Neo4j component versions:
+2012-11-06 16:46:14.149+0000:   Neo4j - Graph Database Kernel 1.8
+2012-11-06 16:46:14.149+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2012-11-06 16:46:14.153+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2012-11-06 16:46:14.154+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2012-11-06 16:46:14.154+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2012-11-06 16:46:14.154+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2012-11-06 16:46:14.154+0000: Id usage:
+    Id usage:
+      NodeStore: used=27 high=26
+      RelationshipStore: used=126 high=125
+      RelationshipTypeStore: used=6 high=5
+      PropertyStore: used=135 high=134
+      PropertyIndexStore: used=8 high=7
+      StringPropertyStore: used=22 high=21
+      ArrayPropertyStore: used=1 high=0
+2012-11-06 16:46:14.155+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2012-11-06 16:46:14.155+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2012-11-06 16:46:14.155+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2012-11-06 16:46:14.155+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2012-11-06 16:46:14.155+0000: Disk space on partition (Total / Free / Free %): 499248103424 / 272131338240 / 45
+Storage files: (filename : modification date - size)
+      active_tx_log: 2012-11-06T02:39:57-0600 - 11.00 B
+      index:
+        lucene:
+          node:
+            Actor_exact:
+              _a.fdt: 2012-11-06T02:40:44-0600 - 205.00 B
+              _a.fdx: 2012-11-06T02:40:44-0600 - 84.00 B
+              _a.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _a.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _a.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _a.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _a.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _a.tis: 2012-11-06T02:40:44-0600 - 267.00 B
+              _b.fdt: 2012-11-06T02:40:44-0600 - 21.00 B
+              _b.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _b.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _b.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _b.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _b.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _b.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _b.tis: 2012-11-06T02:40:44-0600 - 46.00 B
+              _c.fdt: 2012-11-06T02:40:44-0600 - 27.00 B
+              _c.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _c.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _c.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _c.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _c.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _c.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _c.tis: 2012-11-06T02:40:44-0600 - 52.00 B
+              _d.fdt: 2012-11-06T02:40:44-0600 - 25.00 B
+              _d.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _d.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _d.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _d.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _d.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _d.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _d.tis: 2012-11-06T02:40:44-0600 - 50.00 B
+              _e.fdt: 2012-11-06T02:40:44-0600 - 26.00 B
+              _e.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _e.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _e.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _e.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _e.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _e.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _e.tis: 2012-11-06T02:40:44-0600 - 51.00 B
+              _f.fdt: 2012-11-06T02:40:44-0600 - 26.00 B
+              _f.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _f.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _f.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _f.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _f.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _f.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _f.tis: 2012-11-06T02:40:44-0600 - 51.00 B
+              _g.fdt: 2012-11-06T02:40:44-0600 - 24.00 B
+              _g.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _g.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _g.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _g.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _g.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _g.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _g.tis: 2012-11-06T02:40:44-0600 - 49.00 B
+              _h.cfs: 2012-11-06T02:41:12-0600 - 258.00 B
+              segments.gen: 2012-11-06T02:41:12-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:12-0600 - 1.64 kB
+            - Total: 2012-11-06T02:41:13-0600 - 3.44 kB
+            Movie_exact:
+              _0.fdt: 2012-11-06T02:40:44-0600 - 21.00 B
+              _0.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _0.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _0.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _0.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _0.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _0.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _0.tis: 2012-11-06T02:40:44-0600 - 46.00 B
+              _1.fdt: 2012-11-06T02:40:44-0600 - 39.00 B
+              _1.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _1.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _1.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _1.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _1.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _1.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _1.tis: 2012-11-06T02:40:44-0600 - 64.00 B
+              _2.fdt: 2012-11-06T02:40:44-0600 - 60.00 B
+              _2.fdx: 2012-11-06T02:40:44-0600 - 12.00 B
+              _2.fnm: 2012-11-06T02:40:44-0600 - 18.00 B
+              _2.frq: 2012-11-06T02:40:44-0600 - 2.00 B
+              _2.nrm: 2012-11-06T02:40:44-0600 - 6.00 B
+              _2.prx: 2012-11-06T02:40:44-0600 - 2.00 B
+              _2.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _2.tis: 2012-11-06T02:40:44-0600 - 85.00 B
+              _3.fdt: 2012-11-06T02:41:13-0600 - 34.00 B
+              _3.fdx: 2012-11-06T02:41:13-0600 - 12.00 B
+              _3.fnm: 2012-11-06T02:41:13-0600 - 18.00 B
+              _3.frq: 2012-11-06T02:41:13-0600 - 2.00 B
+              _3.nrm: 2012-11-06T02:41:13-0600 - 6.00 B
+              _3.prx: 2012-11-06T02:41:13-0600 - 2.00 B
+              _3.tii: 2012-11-06T02:41:13-0600 - 35.00 B
+              _3.tis: 2012-11-06T02:41:13-0600 - 59.00 B
+              segments.gen: 2012-11-06T02:41:13-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:13-0600 - 836.00 B
+            - Total: 2012-11-06T02:41:13-0600 - 1.53 kB
+          - Total: 2012-11-06T02:40:07-0600 - 4.97 kB
+          relationship:
+            ActedIn_exact:
+              _0.fdt: 2012-11-06T02:40:44-0600 - 125.00 B
+              _0.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _0.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _0.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _0.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _0.tis: 2012-11-06T02:40:44-0600 - 115.00 B
+              _1.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _1.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _1.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _1.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _1.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _1.tis: 2012-11-06T02:40:44-0600 - 117.00 B
+              _2.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _2.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _2.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _2.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _2.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _2.tis: 2012-11-06T02:40:44-0600 - 118.00 B
+              _3.fdt: 2012-11-06T02:41:12-0600 - 139.00 B
+              _3.fdx: 2012-11-06T02:41:12-0600 - 44.00 B
+              _3.fnm: 2012-11-06T02:41:12-0600 - 56.00 B
+              _3.frq: 2012-11-06T02:41:12-0600 - 20.00 B
+              _3.nrm: 2012-11-06T02:41:12-0600 - 24.00 B
+              _3.prx: 2012-11-06T02:41:12-0600 - 20.00 B
+              _3.tii: 2012-11-06T02:41:12-0600 - 35.00 B
+              _3.tis: 2012-11-06T02:41:12-0600 - 118.00 B
+              segments.gen: 2012-11-06T02:41:12-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:12-0600 - 836.00 B
+            - Total: 2012-11-06T02:41:12-0600 - 2.59 kB
+            Neo4j::Rails::Relationship_exact:
+              _0.fdt: 2012-11-06T02:40:44-0600 - 125.00 B
+              _0.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _0.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _0.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _0.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _0.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _0.tis: 2012-11-06T02:40:44-0600 - 115.00 B
+              _1.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _1.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _1.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _1.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _1.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _1.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _1.tis: 2012-11-06T02:40:44-0600 - 117.00 B
+              _2.fdt: 2012-11-06T02:40:44-0600 - 133.00 B
+              _2.fdx: 2012-11-06T02:40:44-0600 - 44.00 B
+              _2.fnm: 2012-11-06T02:40:44-0600 - 56.00 B
+              _2.frq: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.nrm: 2012-11-06T02:40:44-0600 - 24.00 B
+              _2.prx: 2012-11-06T02:40:44-0600 - 20.00 B
+              _2.tii: 2012-11-06T02:40:44-0600 - 35.00 B
+              _2.tis: 2012-11-06T02:40:44-0600 - 118.00 B
+              _3.fdt: 2012-11-06T02:41:13-0600 - 139.00 B
+              _3.fdx: 2012-11-06T02:41:13-0600 - 44.00 B
+              _3.fnm: 2012-11-06T02:41:13-0600 - 56.00 B
+              _3.frq: 2012-11-06T02:41:13-0600 - 20.00 B
+              _3.nrm: 2012-11-06T02:41:13-0600 - 24.00 B
+              _3.prx: 2012-11-06T02:41:13-0600 - 20.00 B
+              _3.tii: 2012-11-06T02:41:13-0600 - 35.00 B
+              _3.tis: 2012-11-06T02:41:13-0600 - 118.00 B
+              segments.gen: 2012-11-06T02:41:13-0600 - 20.00 B
+              segments_1: 2012-11-06T02:41:13-0600 - 836.00 B
+            - Total: 2012-11-06T02:41:13-0600 - 2.59 kB
+          - Total: 2012-11-06T02:40:08-0600 - 5.18 kB
+        - Total: 2012-11-06T02:40:08-0600 - 10.15 kB
+        lucene-store.db: 2012-11-06T10:45:07-0600 - 40.00 B
+        lucene.log.1: 2012-11-06T10:46:13-0600 - 16.00 B
+        lucene.log.active: 2012-11-06T10:46:13-0600 - 4.00 B
+        lucene.log.v0: 2012-11-06T02:41:13-0600 - 9.72 kB
+        lucene.log.v1: 2012-11-06T10:45:07-0600 - 16.00 B
+      - Total: 2012-11-06T10:46:13-0600 - 19.95 kB
+      index.db: 2012-11-06T02:40:08-0600 - 437.00 B
+      lock: 2012-11-06T10:46:13-0600 - 0.00 B
+      messages.log: 2012-11-06T10:46:14-0600 - 84.00 kB
+      neostore: 2012-11-06T10:46:13-0600 - 54.00 B
+      neostore.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.nodestore.db: 2012-11-06T10:46:13-0600 - 243.00 B
+      neostore.nodestore.db.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.propertystore.db: 2012-11-06T10:46:13-0600 - 5.41 kB
+      neostore.propertystore.db.arrays: 2012-11-06T10:46:13-0600 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.propertystore.db.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.propertystore.db.index: 2012-11-06T10:46:13-0600 - 1.02 kB
+      neostore.propertystore.db.index.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.propertystore.db.index.keys: 2012-11-06T10:46:13-0600 - 1.00 kB
+      neostore.propertystore.db.index.keys.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.propertystore.db.strings: 2012-11-06T10:46:13-0600 - 2.75 kB
+      neostore.propertystore.db.strings.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.relationshipstore.db: 2012-11-06T10:46:13-0600 - 4.06 kB
+      neostore.relationshipstore.db.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.relationshiptypestore.db: 2012-11-06T10:46:13-0600 - 30.00 B
+      neostore.relationshiptypestore.db.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2012-11-06T10:46:13-0600 - 266.00 B
+      neostore.relationshiptypestore.db.names.id: 2012-11-06T10:46:13-0600 - 9.00 B
+      nioneo_logical.log.1: 2012-11-06T10:46:13-0600 - 16.00 B
+      nioneo_logical.log.active: 2012-11-06T10:46:13-0600 - 4.00 B
+      nioneo_logical.log.v0: 2012-11-06T02:41:13-0600 - 53.60 kB
+      nioneo_logical.log.v1: 2012-11-06T10:45:07-0600 - 16.00 B
+      tm_tx_log.1: 2012-11-06T10:46:13-0600 - 0.00 B
+2012-11-06 16:46:14.184+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2012-11-06 16:46:14.186+0000: Started - database is now available
+2012-11-06 16:46:14.189+0000: GC Monitor started. 
+2012-11-06 16:47:58.330+0000: Stopping - database is now unavailable
+2012-11-06 16:47:58.334+0000: TM shutting down
+2012-11-06 16:47:58.371+0000: Closed log /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/index/lucene.log
+2012-11-06 16:47:58.374+0000: Closed log /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/nioneo_logical.log
+2012-11-06 16:47:58.375+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=12 switches=0 ooe=0
+2012-11-06 16:47:58.376+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=6 switches=0 ooe=0
+2012-11-06 16:47:58.377+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.strings hit=1 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.379+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index.keys hit=16 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.380+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.index hit=8 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.381+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.382+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.propertystore.db hit=163 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.384+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.relationshipstore.db hit=437 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.385+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore.nodestore.db hit=397 miss=0 switches=0 ooe=0
+2012-11-06 16:47:58.386+0000: /Users/emma.steimann/RubyProjs/SixDegrees/db/neo4j-development/neostore hit=0 miss=97 switches=0 ooe=0
+2012-11-06 16:47:58.387+0000: NeoStore closed
+2012-11-06 16:47:58.387+0000: --- SHUTDOWN diagnostics START ---
+2012-11-06 16:47:58.387+0000: --- SHUTDOWN diagnostics END ---
