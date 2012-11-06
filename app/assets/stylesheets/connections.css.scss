@@ -1,0 +1,77 @@
+#connection_wrapper{
+  padding: 10px 20px 10px 20px;
+}
+#connection_wrapper input {
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 0 none;
+  color: white;
+  height: 20px;
+  border-radius: 5px;
+  outline: 0 none;
+  padding-left: 5px;
+}
+#connection_wrapper input.submit{
+  background-color: #f00;
+  cursor:pointer;
+}
+#connection_wrapper input#reset_all{
+  background-color: tan;
+  color: #000;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor:pointer;
+}
+#save_xml input.submit{
+  background-color: blue;
+  cursor:pointer;
+}
+#connection_wrapper input#compare_nodes{
+  background-color: tan;
+  color: #000;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor:pointer;
+}
+h2{
+  font-size: 16px;
+}
+h3{
+  font-size: 14px;
+}
+#list_container{
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  min-height:20px;
+  width: 400px;
+  float: left;
+}
+#load_xml_area{
+  min-height:20px;
+  width: 250px;
+  float: left;
+  margin-left: 20px;
+}
+#warning {
+  font-size: 12px;
+}
+#navigation{
+  margin: 0px 180px 10px 0px;
+  padding: 0px;
+  float: right;
+}
+#navigation li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+#navigation li a{
+  text-decoration: none;
+}
+#compared_text{
+  margin-top: 10px;
+  min-height: 40px;
+  border-left: thick solid #888;
+  padding:10px;
+  font-size: 14px;
+}

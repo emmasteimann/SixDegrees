@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SixDegrees</title>
+  <title>Six Degrees of Separation</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div id="connection_wrapper">
+  <h1>Six Degrees of Separation</h1>
+  <div>
+    <ul id="navigation">
+      <li><%= link_to "Home", :action => :index %></li>
+      <li><%= link_to "Compare", connection_compare_path %></li>
+    </ul>
+  </div>
 <%= yield %>
-
+  </div>
+</div>
 </body>
 </html>

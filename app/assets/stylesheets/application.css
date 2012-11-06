@@ -11,3 +11,11 @@
  *= require_self
  *= require_tree .
  */
+html {
+  background: url("background.png") repeat #d1e39b;
+}
+body {
+  font-family: sans-serif;
+  width: 800px;
+  margin: 0 auto;
+}

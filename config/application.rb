@@ -1,12 +1,8 @@
 require File.expand_path('../boot', __FILE__)
 
 # Pick the frameworks you want:
-# require "active_record/railtie"
-require "action_controller/railtie"
-require "action_mailer/railtie"
-require "active_resource/railtie"
-require "sprockets/railtie"
-require "rails/test_unit/railtie"
+require 'rails/all'
+require 'neo4j'
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -54,10 +50,9 @@ module SixDegrees
 
     # Configure where the neo4j database should exist
     config.neo4j.storage_path = "#{config.root}/db/neo4j-#{Rails.env}"
-
-
+    config.cache_dir = "#{Rails.root}/tmp/uploads"
     # Enable escaping HTML in JSON.
-    config.active_support.escape_html_entities_in_json = true
+    # config.active_support.escape_html_entities_in_json = true
 
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,

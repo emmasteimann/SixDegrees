@@ -22,6 +22,10 @@ GEM
       activesupport (= 3.2.8)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
+    activerecord-jdbc-adapter (1.2.2.1)
+    activerecord-jdbcsqlite3-adapter (1.2.2.1)
+      activerecord-jdbc-adapter (~> 1.2.2.1)
+      jdbc-sqlite3 (~> 3.7.2)
     activeresource (3.2.8)
       activemodel (= 3.2.8)
       activesupport (= 3.2.8)
@@ -41,6 +45,7 @@ GEM
       xpath (~> 0.1.4)
     childprocess (0.3.6)
       ffi (~> 1.0, >= 1.0.6)
+    cocaine (0.4.2)
     coderay (1.0.8)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -69,6 +74,7 @@ GEM
       rspec (~> 2.11)
     hike (1.2.1)
     i18n (0.6.1)
+    jdbc-sqlite3 (3.7.2)
     journey (1.0.4)
     jquery-rails (2.1.3)
       railties (>= 3.1.0, < 5.0)
@@ -99,8 +105,15 @@ GEM
     neo4j-cypher (1.0.0)
     neo4j-wrapper (2.2.0-java)
       neo4j-core (= 2.2.0)
+    neo4jrb-paperclip (0.0.1-java)
+      paperclip (~> 2.3.6)
     nokogiri (1.5.5-java)
     orm_adapter (0.4.0)
+    paperclip (2.3.16)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
     polyglot (0.3.3)
     pry (0.9.10-java)
       coderay (~> 1.0.5)
@@ -170,7 +183,7 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.34)
+    tzinfo (0.3.35)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
@@ -181,14 +194,17 @@ PLATFORMS
   java
 
 DEPENDENCIES
+  activerecord-jdbcsqlite3-adapter
   capybara
   coffee-rails (~> 3.2.1)
   factory_girl_rails
   guard-rspec
+  jdbc-sqlite3
   jquery-rails
   jruby-openssl
   json
   neo4j
+  neo4jrb-paperclip
   nokogiri (~> 1.5.5)
   rails (= 3.2.8)
   rspec-rails

@@ -7,6 +7,10 @@ gem 'json'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem "neo4jrb-paperclip", :require => "neo4jrb_paperclip"
+# gem "aws-s3",            :require => "aws/s3"
+gem "activerecord-jdbcsqlite3-adapter"
+gem "jdbc-sqlite3"
 gem "rspec-rails", :group => [:test, :development]
 group :test do
   gem "factory_girl_rails"

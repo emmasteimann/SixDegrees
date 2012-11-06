@@ -1,0 +1,26 @@
+<%= form_tag(connection_get_movies_path, :remote => true) do %>
+  <%= text_field :movie, :name %>
+  <%= submit_tag "Load movie", :class => :submit %>
+<% end %>
+<h2>Prep movies for XML file</h2>
+<div id="list_container">
+
+</div>
+<div id="load_xml_area">
+  <%= form_tag(connection_save_xml_path, :id => "save_xml") do %>
+    <%= hidden_field :movie, :names %>
+    <%= submit_tag "Save XML", :class => :submit %>
+  <% end %>
+  <div id="saved_xmls">
+    <h3>Currently saved XMLs</h3>
+    <ul id="current_xml">
+    <%= render "current_xml" %>
+    </ul>
+  </div>
+  <div id="warning">
+    Note: The app examines the fullset of xml file data.
+    To change the dataset please reset.
+    <%= form_tag(connection_clear_xml_and_data_path, :remote => true) do %>
+      <%= submit_tag "Reset All", :class => :submit, :id => "reset_all" %>
+    <% end %>
+  </div>

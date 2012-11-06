@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<movies>
+  <movie title="Liar Liar">
+    <actor name="Jim Carrey"/>
+    <actor name="Maura Tierney"/>
+    <actor name="Justin Cooper"/>
+    <actor name="Cary Elwes"/>
+    <actor name="Anne Haney"/>
+  </movie>
+</movies>

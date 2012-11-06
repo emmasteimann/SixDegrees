@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movies>
-   <movie title="test movie 1">
-      <actor name="test actor 1" />
-      <actor name="test actor 2" />
+   <movie title="Footloose">
+      <actor name="Kevin Bacon" />
+      <actor name="Lori Singer" />
    </movie>
-   <movie title="test movie 2">
-      <actor name="test actor 2" />
-      <actor name="test actor 3" />
+   <movie title="X-Men: First Class">
+      <actor name="Kevin Bacon" />
+      <actor name="James McAvoy" />
    </movie>
-   <movie title="test movie 3">
-      <actor name="test actor  3" />
-      <actor name="test actor 4" />
+   <movie title="Gnomeo and Juliet">
+      <actor name="James McAvoy" />
+      <actor name="Michael Caine" />
    </movie>
-   <movie title="test movie 4">
-      <actor name="test actor 5" />
+   <movie title="The Dark Knight">
+      <actor name="Michael Caine" />
+      <actor name="Christian Bale" />
+      <actor name="Gary Oldman" />
+   </movie>
+   <movie title="Pirates of the Caribbean">
+      <actor name="Johnny Depp" />
+      <actor name="Keira Knightley" />
    </movie>
 </movies>

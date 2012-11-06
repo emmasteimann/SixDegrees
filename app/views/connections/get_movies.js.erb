@@ -1,0 +1,13 @@
+<% item_class = Time.now.to_i.to_s%>
+$("#list_container").append("<ul class='<%=item_class %>'></ul>")
+$("#list_container ul.<%=item_class%>").append("<li style='list-style-type:none; margin-left: -18px;'><strong>Movie: </strong><span class='movie_title'><%=@result.title %></span></li>")
+<% @result.actors.each{ |item| %>
+  <% item = item.to_s.strip %>
+  $("#list_container ul.<%=item_class%>").append("<li><%=item %></li>")
+<% } %>
+current_val = $("#movie_names").val()
+if (current_val == ""){
+  $("#movie_names").val("<%= @result.title %>")
+} else {
+  $("#movie_names").val(current_val + "," + "<%= @result.title %>")
+}

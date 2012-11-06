@@ -1,0 +1,13 @@
+<%= form_tag(connection_get_movies_path, :remote => true) do %>
+  <%= text_field :movie, :name %>
+  <%= submit_tag "Load movie", :class => :submit %>
+<% end %>
+<h2>Prep movies for XML file</h2>
+<div id="list_container">
+
+</div>
+<div id="load_xml_area">
+  <%= form_tag(connection_save_xml_path, :remote => true, :id => "save_xml") do %>
+    <%= hidden_field :movie, :names %>
+    <%= submit_tag "Save XML", :class => :submit %>
+  <% end %>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<movies>
+  <movie title="Ace Ventura: Pet Detective">
+    <actor name="Jim Carrey"/>
+    <actor name="Courteney Cox"/>
+    <actor name="Sean Young"/>
+    <actor name="Tone Loc"/>
+    <actor name="Noble Willingham"/>
+  </movie>
+  <movie title="Lemony Snicket's A Series of Unfortunate Events">
+    <actor name="Jim Carrey"/>
+    <actor name="Meryl Streep"/>
+    <actor name="Jude Law"/>
+    <actor name="Emily Browning"/>
+    <actor name="Kara Hoffman"/>
+  </movie>
+  <movie title="The Devil Wears Prada">
+    <actor name="Meryl Streep"/>
+    <actor name="Anne Hathaway"/>
+    <actor name="Stanley Tucci"/>
+    <actor name="Simon Baker"/>
+    <actor name="Emily Blunt"/>
+  </movie>
+</movies>

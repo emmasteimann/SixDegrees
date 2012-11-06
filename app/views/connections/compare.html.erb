@@ -1,0 +1,9 @@
+<h2>Get Distance Between Selected Nodes</h2>
+<%= form_tag(connection_compare_data_path, :remote => true) do %>
+  <%= select_tag "actor_one", options_from_collection_for_select(Actor.all, "id", "name") %>
+  <%= select_tag "actor_two", options_from_collection_for_select(Actor.all, "id", "name") %>
+  <%= submit_tag "Get Distance", :class => :submit, :id => "compare_nodes" %>
+<% end %>
+<div id="compared_text">
+
+</div>
