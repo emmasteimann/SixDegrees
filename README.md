@@ -1,7 +1,7 @@
 # Six Degrees of Separation
 > or Six Degrees of Kevin Bacon
 
-This app read a XML document of movies and actors, loading them into a graph datastore and allows you to anlayze the degree of distance between any two actors.
+This app creates/reads an XML document of movies and actors, loading them into a graph datastore and allows you to anlayze the degree of distance between any two actors.
 
 ## Major Dependencies:
 
